@@ -1,6 +1,10 @@
-#include "employee.h"
+﻿#include "employee.h"
 
-CEmployee::CEmployee()
+Employee::Employee(std::string name, std::string position, int age): Name(name), Position(position), Age(age)
+{
+}
+
+Employee::Employee()
 {
 
 }

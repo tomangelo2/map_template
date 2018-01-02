@@ -1,11 +1,18 @@
-#ifndef EMPLOYEE_H
+﻿#ifndef EMPLOYEE_H
 #define EMPLOYEE_H
 
+#include <string>
 
-class CEmployee
+
+class Employee
 {
 public:
-    CEmployee();
+    Employee(std::string, std::string, int);
+    Employee();
+//private:
+    std::string Name;
+    std::string Position;
+    int Age;
 };
 
 #endif // EMPLOYEE_H

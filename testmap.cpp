@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 using namespace std;
 
 #include "employee.h"			//defines class Employee
@@ -13,7 +13,7 @@ int main(void)
 	Database.Add(510212881,Employee("Adam Nowak","storekeeper",54)); 	//Add second employee: name: Adam Nowak, position: storekeeper, age: 54
 	Database.Add(730505129,Employee("Anna Zaradna","secretary",32)); 	//Add third employee: name: Anna Zaradna, position: secretary, age: 32
 
-	cout << Database << endl;							//Print databese
+        //cout << Database << endl;							//Print databese
 
 	map_template<ID,Employee> NewDatabase = Database;	//Make a copy of database
 	
@@ -25,5 +25,5 @@ int main(void)
 
 	Database = NewDatabase;								//Update original database
 	
-	cout << Database << endl;							//Print original databese
-};
+        //cout << Database << endl;							//Print original databese
+}
